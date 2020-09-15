@@ -41,7 +41,7 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .nav-list-link :hover,
 .nav-list-link :focus {
@@ -52,12 +52,9 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
-.address-link :hover,
-.address-link :focus {
-  color: #2196f3;
-}
+
 /* ======END HEADER====== */
 
 /* ======HERO====== */
