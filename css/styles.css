@@ -146,11 +146,17 @@ body {
 /* ======END  OUR TEAM====== */
 
 /* ======FOOTER====== */
+
 .footer-logo-blue {
   color: #2196f3;
 }
-/* .footer-logo-white { */
-  color: white;
+
+.footer-logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
 }
 
 .footer-address-map {
@@ -158,7 +164,7 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
 }
 .footer-address-link {
   font-weight: 400;
@@ -169,7 +175,33 @@ body {
 }
 /* ======END FOOTER====== */
 
-
-
 /* ======PORTFOLIO====== */
 
+.portfolio-list-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.portfolio-list-btn :hover,
+.portfolio-list-btn :focus {
+  color: #2196f3;
+}
+
+.portfolio-list-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.portfolio-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.888;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
