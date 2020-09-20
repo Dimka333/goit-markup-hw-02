@@ -12,6 +12,9 @@ html {
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --main-focus-color: #2196f3;
+  --footer-bg-color: #2f303a;
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
 }
 body {
   font-family: var(--main-font);
@@ -65,6 +68,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+.current,
 .address-link:hover,
 .address-link:focus {
   color: var(--main-focus-color);
@@ -96,7 +100,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--main-focus-color);
 }
 /* ======END HERO====== */
 
@@ -134,7 +138,7 @@ body {
 /* ======OUR TEAM====== */
 
 .team {
-  background: #f5f4fa;
+  background: var(--secondary-bg-color);
 }
 
 .team-our {
@@ -168,7 +172,7 @@ body {
 /* ======FOOTER====== */
 
 .footer {
-  background: #2f303a;
+  background: var(--footer-bg-color);
 }
 .footer-logo-white {
   color: #ffffff;
@@ -206,7 +210,7 @@ body {
 .footer-address-map:focus,
 .footer-address-link:hover,
 .footer-address-link:focus {
-  color: #2196f3;
+  color: var(--main-focus-color);
 }
 /* ======END FOOTER====== */
 
